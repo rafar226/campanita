@@ -1,0 +1,45 @@
+#sobrenosotros-card {
+        margin-top: 60px;
+        text-align: center;
+        border-top: 80%;
+        border-top: 1px solid rgb(158, 155, 155, 0.5);
+        width: 100%;
+       
+}
+
+
+
+.card-body {
+        background: white;
+        margin-bottom: 3px;
+  
+        
+}
+
+
+
+video {
+        width: 100%    !important;
+        height: auto   !important;     
+}
+
+
+#accordion {
+        width: 100%;
+     
+}
+
+#accordion .card {
+        background: none;
+        border: none;
+}
+
+.collapse {
+        background: none;
+        border: none;
+
+}
+
+button {
+        border: none;
+}

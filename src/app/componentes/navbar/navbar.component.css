@@ -1,0 +1,43 @@
+nav {
+    margin-top: 20px;
+    background-color: rgb(181, 47, 214);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:link {
+    color: white;
+}
+
+img {
+    width: 80px;
+    margin-left: 8px;
+  }
+
+  
+  .redes {
+    width: 35px;
+    height: auto;
+   
+  }
+  
+  .img-redes {
+    width: 78px;
+    height: 35px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+    
+   
+  }
+
+  @media only screen and (max-width: 370px) {
+    .img-redes {
+      margin-right: 25px;
+    }
+  }
+  

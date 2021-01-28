@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "campanita-salon": {
+      "hosting": {
+        "campanita": [
+          "campanita-salon"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "campanita-salon"
+  }
+}

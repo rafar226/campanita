@@ -1,0 +1,74 @@
+
+
+.embed-responsive-item {
+    text-align: center;
+    border: none;
+}
+
+.container {
+    margin-top: 0px;
+    background-image: url(./../../../assets/manchas3.png);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+
+
+
+@media (max-width: 450px) {
+
+  }
+  
+  iframe {
+      width: 100%;
+      height: auto;
+      border: none;
+
+  }
+
+  #contacto {
+      margin-top: 60px;
+      text-align: center;
+      border-top: 80%;
+      border-top: 1px solid rgb(158, 155, 155, 0.5);
+      border-bottom: 80%;
+      border-bottom: 1px solid rgb(158, 155, 155, 0.5);
+
+      padding: 15px;
+      background: white;
+  }
+
+  .redes {
+      width: 50px;
+      margin: 5px;
+  }
+ 
+  video {
+      border: none;
+  }
+
+  .card-cabecera {
+      width: 40%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  @media (max-width: 450px) {
+      .card-cabecera {
+          width: 60%;
+      }
+  }
+
+
+  .card-text {
+      color: white;
+  }
+
+  .separacion {
+      margin-top: 20px;
+  }
