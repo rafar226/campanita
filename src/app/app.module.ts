@@ -1,5 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbCarouselConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgxWhastappButtonModule } from 'ngx-whatsapp-button';
+import { AngularFireModule } from '@angular/fire';
+
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,11 +14,11 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { SobrenosotrosComponent } from './componentes/sobrenosotros/sobrenosotros.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { FootComponent } from './componentes/foot/foot.component';
-import { SalonComponent } from './componentes/salon/salon.component';
 import { environment } from 'src/environments/environment';
-import { AngularFireModule } from '@angular/fire';
-import { NgxWhastappButtonModule } from 'ngx-whatsapp-button';
 import { CombosComponent } from './componentes/combos/combos.component';
+import { CarouselComponent } from './componentes/carousel/carousel.component';
+
+
 
 @NgModule({
   declarations: [
@@ -22,16 +28,17 @@ import { CombosComponent } from './componentes/combos/combos.component';
     SobrenosotrosComponent,
     ContactoComponent,
     FootComponent,
-    SalonComponent,
-    CombosComponent
+    CombosComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseconfig),
-    NgxWhastappButtonModule
+    NgxWhastappButtonModule,
+    NgbModule,
   ],
-  providers: [],
+  providers: [NgbCarouselConfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

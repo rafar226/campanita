@@ -1,8 +1,9 @@
+
 #sobrenosotros-card {
-        margin-top: 60px;
+        margin-top: 30px;
+        padding-top: 15px;
         text-align: center;
-        border-top: 80%;
-        border-top: 1px solid rgb(158, 155, 155, 0.5);
+        border: none;
         width: 100%;
        
 }
@@ -18,18 +19,32 @@
 
 
 
-video {
-        width: 100%    !important;
-        height: auto   !important;     
+img {
+        width: 90%    !important;
+        height: auto   !important;
+        margin-left: auto;
+        margin-right: auto;     
+        margin-top: 20px;
+        cursor: pointer;
 }
+
 
 
 #accordion {
         width: 100%;
-     
+}
+
+.card, #accordion {
+        border: none;
+        background: none;
 }
 
 #accordion .card {
+        background: none;
+        border: none;
+}
+
+.card-header{
         background: none;
         border: none;
 }
@@ -43,3 +58,28 @@ video {
 button {
         border: none;
 }
+
+
+video {
+        width: 100%    !important;
+        height: auto   !important;     
+}
+    
+
+.texto{
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        color: #ffffff; 
+        font-size: 18px; 
+        font-weight: 400; 
+        text-align: center; 
+        background: #889ccf; 
+        margin: 0 0 25px; 
+        overflow: hidden; 
+        padding: 20px; 
+        border-radius: 35px 0px 35px 0px; 
+        -moz-border-radius: 35px 0px 35px 0px; 
+        -webkit-border-radius: 35px 0px 35px 0px; 
+        border: 2px solid #5878ca;
+}
+
+

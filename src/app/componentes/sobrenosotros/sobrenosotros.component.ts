@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-sobrenosotros',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SobrenosotrosComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public modal: NgbModal
+
+  ) { }
 
   ngOnInit(): void {
   }
+
+
 
 }

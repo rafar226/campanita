@@ -1,78 +1,66 @@
 
+
   <div id="sobrenosotros-card" class="d-flex flex-wrap just justify-content-center">
+
+   
  
-    <div class="card-body float-left">
+    <div class="card d-flex texto">
       <h5 class="card-title">Sobre nosotros</h5>
       <p class="card-text"> 
         
-        En Campanita tratamos de que cada cumpleaños sea diferente, especial, que le haga a cada niño 
-        sonreir y vivir un momento único para dar paso a otra etapa llena de nuevos desafíos y 
-        alegrías.
-
-        
-        Planificamos cada cumpleaños acorde a las edades... los juegos, karaokes de 
-        acuerdo a los gustos personales de cada niño y características personales de los mismos.<br>
-        Las canciones, la torta, los aplausos, las caritas pintadas, los regalos, las velas, 
-        los globos, son los ingredientes que llenan los ojitos el alma y el corazón.
-        Les llenan de alegría, de ilusión y fantasía. Y si a eso añadimos juegos y bailes, 
-        mucho mejor. <br>
-        TE ESPERAMOS!!!</p>
+        Los cumpleaños tienen una duración de 2 hs y media...  Planificamos cada cumpleaños acorde a las edades... se realizan  juegos de interacción  y competencia, didacticos con  aros ,pelotas pancartas etc. En todos los combos esta incluida la funcion de titeres dependiendo siempre de la edades... <br>
+        ✔️Para los mas grandes hay karaokes y partidos de fútbol  en cancha de césped  dirigidos...<br>
+        ✔️También tenemos un  momento de baile Fluor y Just Dance con gorros!<br>
+        ✔️Contamos con toro Mecanico y Super Estructural....<br>
+        ✔️Para los mas pequeños una super zona blanda con Pelotero...
+        Las canciones, la torta, los aplausos, las caritas pintadas, son los ingredientes que llenan los ojitos el alma y el corazón. Les llenan de alegría, de ilusión y fantasía....
+        TE ESPERAMOS!!!
+      </p>
     </div>
     
-    <div class="embed-responsive">
-        
-
-    <div id="accordion">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-info" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Mira por dentro nuestro salon! 
-            </button>
-          </h5>
-        </div>
+    <div class="card d-flex">
+     
+        <img (click)=modal.open(video360) class="card-img-top" src="./../../../assets/fotos/video.png" alt="Card image cap">
     
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">
+      </div>
+
+      
+  <ng-template #video360 let-modal>
+    <div class="modal-body">
+      
+      
+      <ngb-carousel >
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
             <video autoplay="autoplay" controls="controls" [muted] ="'muted'" >
-              <source src="./../../../assets/videos/zonablanda.mp4"  type="video/mp4">
-            </video>          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-info collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Ademas, la zona de futbol
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            <video autoplay="autoplay" [muted] ="'muted'" >
-              <source src="./../../../assets/videos/canchaymas.mp4"  type="video/mp4">
-            </video>          
+              <source src="./../../../assets/videos/video3601.mp4"  type="video/mp4">
+            </video> 
           </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-info collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Mas videos de nuestro salon!
-            </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-            <video autoplay="autoplay" [muted] ="'muted'" >
-              <source src="./../../../assets/videos/canchatoroypelotero.mp4"  type="video/mp4">
-            </video>          
+        </ng-template>
+    
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <video autoplay="autoplay" controls="controls" [muted] ="'muted'" >
+              <source src="./../../../assets/videos/video3602.mp4"  type="video/mp4">
+            </video> 
           </div>
-        </div>
-      </div>
-    </div>
+        </ng-template>
+    
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <video autoplay="autoplay" controls="controls" [muted] ="'muted'" >
+              <source src="./../../../assets/videos/video3603.mp4"  type="video/mp4">
+            </video> 
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    
 
-    </div>
+  </div>
+  </ng-template>
+  
 
 
+    
+  </div>
+ 

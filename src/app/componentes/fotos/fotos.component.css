@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+.card {
+        max-width: 250px;
+        margin-top: 5px;
+        text-align: center;
+        border: none;
+        background-color: white;
+        align-self: center;
+  }
+  
+    .card-body {
+      background-color: white;
+  
+    }
+  
